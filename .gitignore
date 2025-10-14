@@ -1,6 +1,3 @@
-# Output directory for generated PDFs
-output/
-
 # Python
 __pycache__/
 *.py[cod]
