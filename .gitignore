@@ -1,3 +1,6 @@
+# Output directory for generated PDFs
+toc-notebook/
+
 # Python
 __pycache__/
 *.py[cod]

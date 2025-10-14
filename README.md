@@ -77,7 +77,7 @@ from pdf_notebook import PDFNotebookBatchGenerator
 # Generate all device/pattern combinations
 batch = PDFNotebookBatchGenerator(
     num_pages=256,
-    output_dir='output'
+    output_dir='toc-notebook'
 )
 stats = batch.generate_all()
 print(f"Generated {stats['generated']} PDFs")
@@ -162,7 +162,7 @@ batch = PDFNotebookBatchGenerator(
     devices=['remarkable2', 'booxnoteair'],
     patterns=['dots', 'lines'],
     num_pages=100,
-    output_dir='output'
+    output_dir='toc-notebook'
 )
 batch.generate_all()
 ```
@@ -205,7 +205,7 @@ You can use either full names or short aliases:
 Notebook-Templates/
 ├── pdf_notebook.py           # Main Python module
 ├── pdf-notebook.ipynb        # Jupyter notebook with examples
-├── output/                   # Generated PDFs (created automatically)
+├── toc-notebook/             # Generated PDFs (created automatically)
 ├── .gitignore               # Git ignore rules
 ├── .vscode/                 # VSCode settings
 └── README.md                # This file
@@ -343,7 +343,7 @@ pip install reportlab
 python pdf_notebook.py
 ```
 
-This will generate sample PDFs in the `output/` directory.
+This will generate sample PDFs in the `toc-notebook/` directory.
 
 ## License
 

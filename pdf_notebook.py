@@ -1071,7 +1071,7 @@ if __name__ == "__main__":
     batch_generator = PDFNotebookBatchGenerator(
         num_pages=256,
         page_number_position='lower-left',
-        output_dir='output'  # Output to 'output' directory (will be created if it doesn't exist)
+        output_dir='toc-notebook'  # Output to 'toc-notebook' directory (will be created if it doesn't exist)
         # margins={'left': 10, 'right': 10, 'top': 10, 'bottom': 10},  # Custom margins
     )
     
