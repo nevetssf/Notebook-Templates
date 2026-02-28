@@ -27,6 +27,7 @@ wheels/
 .ipynb_checkpoints
 
 # Environment
+.venv/
 venv/
 env/
 ENV/
