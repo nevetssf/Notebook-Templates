@@ -116,6 +116,11 @@ class PDFHyperlinkedNotebookGenerator:
         'booxtabminic': (119 * mm, 158 * mm),     # Onyx Boox Tab Mini C: 7.8" display
         'booxnotemax': (203 * mm, 270 * mm),      # Onyx Boox Note Max: 13.3" display
         'booxgo103': (157 * mm, 209 * mm),        # Onyx Boox Go 10.3: 10.3" display
+        # Supernote devices
+        'supernotea5x': (158 * mm, 210 * mm),     # Supernote A5X: 10.3" display, 226 PPI
+        'supernotea6x': (119 * mm, 159 * mm),     # Supernote A6X: 7.8" display, 300 PPI
+        'supernotea6x2': (119 * mm, 159 * mm),    # Supernote A6X2 (Nomad): 7.8" display, 300 PPI
+        'supernotemanta': (163 * mm, 217 * mm),   # Supernote A5X2 (Manta): 10.7" display, 300 PPI
     }
     
     DEVICE_DISPLAY_NAMES = {
@@ -135,6 +140,10 @@ class PDFHyperlinkedNotebookGenerator:
         'booxtabminic': 'Onyx Boox Tab Mini C',
         'booxnotemax': 'Onyx Boox Note Max',
         'booxgo103': 'Onyx Boox Go 10.3',
+        'supernotea5x': 'Supernote A5X',
+        'supernotea6x': 'Supernote A6X',
+        'supernotea6x2': 'Supernote A6X2 (Nomad)',
+        'supernotemanta': 'Supernote A5X2 (Manta)',
         'a4': 'A4',
         'letter': 'Letter',
         'a5': 'A5',
@@ -826,7 +835,8 @@ class PDFNotebookBatchGenerator:
     DEFAULT_DEVICES = [
         'remarkable1', 'remarkable2', 'move', 'pro',
         'booxnoteair', 'booxmaxlumi', 'booxnoteair3c', 'booxnoteair3',
-        'booxnoteair4c', 'booxtabminic', 'booxnotemax', 'booxgo103'
+        'booxnoteair4c', 'booxtabminic', 'booxnotemax', 'booxgo103',
+        'supernotea5x', 'supernotea6x', 'supernotea6x2', 'supernotemanta'
     ]
     
     # Default patterns to generate

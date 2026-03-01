@@ -34,6 +34,12 @@ Try it online: **[https://eink-notebook-templates.streamlit.app/](https://eink-n
 - Onyx Boox Note Max (13.3")
 - Onyx Boox Tab Mini C (7.8")
 
+### Supernote Tablets
+- Supernote A5X (10.3" - 158 × 210 mm)
+- Supernote A6X (7.8" - 119 × 159 mm)
+- Supernote A6X2 Nomad (7.8" - 119 × 159 mm)
+- Supernote A5X2 Manta (10.7" - 163 × 217 mm)
+
 ### Standard Paper Sizes
 - A4, A5, Letter, Legal
 
@@ -202,6 +208,7 @@ You can use either full names or short aliases:
 - `remarkablemove` or `move`
 - `booxnoteair`, `booxnoteair3`, `booxnoteair3c`, `booxnoteair4c`
 - `booxgo`, `booxmaxlumi`, `booxnotemax`, `booxtabminic`
+- `supernotea5x`, `supernotea6x`, `supernotea6x2`, `supernotemanta`
 
 ## Project Structure
 
