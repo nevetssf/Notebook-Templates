@@ -116,6 +116,13 @@ class PDFHyperlinkedNotebookGenerator:
         'booxtabminic': (119 * mm, 158 * mm),     # Onyx Boox Tab Mini C: 7.8" display
         'booxnotemax': (203 * mm, 270 * mm),      # Onyx Boox Note Max: 13.3" display
         'booxgo103': (157 * mm, 209 * mm),        # Onyx Boox Go 10.3: 10.3" display
+        'booxnoteair5c': (157 * mm, 209 * mm),    # Onyx Boox Note Air 5C: 10.3" display, 300 PPI
+        'booxtabultracpro': (157 * mm, 209 * mm), # Onyx Boox Tab Ultra C Pro: 10.3" display, 300 PPI
+        'booxtabx': (203 * mm, 270 * mm),         # Onyx Boox Tab X: 13.3" display, 207 PPI
+        'booxtabxc': (203 * mm, 270 * mm),        # Onyx Boox Tab X C: 13.3" display, 207 PPI
+        'booxgo7': (107 * mm, 142 * mm),          # Onyx Boox Go 7 / Go Color 7: 7" display, 300 PPI
+        'booxgo6': (91 * mm, 123 * mm),           # Onyx Boox Go 6: 6" display, 300 PPI
+        'booxpalma2': (70 * mm, 140 * mm),        # Onyx Boox Palma 2: 6.13" display, 300 PPI
         # Kindle devices
         'kindlescribe': (157 * mm, 210 * mm),      # Kindle Scribe: 10.2" display, 300 PPI
         # Supernote devices
@@ -142,6 +149,13 @@ class PDFHyperlinkedNotebookGenerator:
         'booxtabminic': 'Onyx Boox Tab Mini C',
         'booxnotemax': 'Onyx Boox Note Max',
         'booxgo103': 'Onyx Boox Go 10.3',
+        'booxnoteair5c': 'Onyx Boox Note Air 5C',
+        'booxtabultracpro': 'Onyx Boox Tab Ultra C Pro',
+        'booxtabx': 'Onyx Boox Tab X',
+        'booxtabxc': 'Onyx Boox Tab X C',
+        'booxgo7': 'Onyx Boox Go 7',
+        'booxgo6': 'Onyx Boox Go 6',
+        'booxpalma2': 'Onyx Boox Palma 2',
         'kindlescribe': 'Kindle Scribe',
         'supernotea5x': 'Supernote A5X',
         'supernotea6x': 'Supernote A6X',
@@ -839,6 +853,8 @@ class PDFNotebookBatchGenerator:
         'remarkable1', 'remarkable2', 'move', 'pro',
         'booxnoteair', 'booxmaxlumi', 'booxnoteair3c', 'booxnoteair3',
         'booxnoteair4c', 'booxtabminic', 'booxnotemax', 'booxgo103',
+        'booxnoteair5c', 'booxtabultracpro', 'booxtabx', 'booxtabxc',
+        'booxgo7', 'booxgo6', 'booxpalma2',
         'kindlescribe',
         'supernotea5x', 'supernotea6x', 'supernotea6x2', 'supernotemanta'
     ]

@@ -25,14 +25,21 @@ Try it online: **[https://eink-notebook-templates.streamlit.app/](https://eink-n
 - reMarkable Paper Pro Move (7.3" - 91 × 162 mm)
 
 ### Onyx Boox Tablets
-- Onyx Boox Go 10.3
-- Onyx Boox Max Lumi (13.3")
-- Onyx Boox Note Air series (10.3")
-- Onyx Boox Note Air 3 (10.3")
-- Onyx Boox Note Air 3C (10.3")
-- Onyx Boox Note Air 4C (10.3")
-- Onyx Boox Note Max (13.3")
-- Onyx Boox Tab Mini C (7.8")
+- Onyx Boox Note Air (10.3" - 157 × 209 mm)
+- Onyx Boox Note Air 3 (10.3" - 157 × 209 mm)
+- Onyx Boox Note Air 3C (10.3" - 157 × 209 mm)
+- Onyx Boox Note Air 4C (10.3" - 157 × 209 mm)
+- Onyx Boox Note Air 5C (10.3" - 157 × 209 mm)
+- Onyx Boox Note Max (13.3" - 203 × 270 mm)
+- Onyx Boox Max Lumi (13.3" - 203 × 270 mm)
+- Onyx Boox Tab Mini C (7.8" - 119 × 158 mm)
+- Onyx Boox Tab Ultra C Pro (10.3" - 157 × 209 mm)
+- Onyx Boox Tab X (13.3" - 203 × 270 mm)
+- Onyx Boox Tab X C (13.3" - 203 × 270 mm)
+- Onyx Boox Go 6 (6" - 91 × 123 mm)
+- Onyx Boox Go 7 (7" - 107 × 142 mm)
+- Onyx Boox Go 10.3 (10.3" - 157 × 209 mm)
+- Onyx Boox Palma 2 (6.13" - 70 × 140 mm)
 
 ### Kindle
 - Kindle Scribe (10.2" - 157 × 210 mm)
