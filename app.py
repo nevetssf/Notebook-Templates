@@ -11,7 +11,7 @@ from pdf_notebook import PDFHyperlinkedNotebookGenerator
 st.set_page_config(page_title="Notebook Generator", page_icon="📓", layout="centered")
 
 st.title("📓 PDF Notebook Generator")
-st.caption("Generate custom notebooks for reMarkable, Onyx Boox, Supernote, and standard paper sizes.")
+st.caption("Generate custom notebooks for reMarkable, Onyx Boox, Supernote, Kindle Scribe, and standard paper sizes.")
 
 st.markdown(
 """
@@ -47,6 +47,9 @@ DEVICES = {
         "Max Lumi":     "booxmaxlumi",
         "Tab Mini C":   "booxtabminic",
         "Go 10.3":      "booxgo103",
+    },
+    "Kindle": {
+        "Scribe": "kindlescribe",
     },
     "Supernote": {
         "A5X":          "supernotea5x",
