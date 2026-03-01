@@ -180,6 +180,7 @@ with st.form("contact_form"):
             response = requests.post(
                 "https://formspree.io/f/xaqdzpjw",
                 data={"name": name, "email": email, "message": message},
+                headers={"Referer": "https://eink-notebook-templates.streamlit.app"},
             )
             if response.status_code == 200:
                 st.success("Thanks for your feedback!")
