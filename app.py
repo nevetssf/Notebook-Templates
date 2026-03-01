@@ -1,6 +1,7 @@
 import io
 import sys
 import os
+import requests
 import streamlit as st
 import fitz  # pymupdf
 
@@ -164,3 +165,23 @@ if st.button("Generate PDF", type="primary", use_container_width=True):
                     col.caption(label)
         except Exception as e:
             st.error(f"Error generating notebook: {e}")
+
+st.divider()
+st.subheader("Feedback")
+with st.form("contact_form"):
+    name = st.text_input("Name")
+    email = st.text_input("Email (optional, if you'd like a reply)")
+    message = st.text_area("Message")
+    submitted = st.form_submit_button("Send", use_container_width=True)
+    if submitted:
+        if not message.strip():
+            st.warning("Please enter a message.")
+        else:
+            response = requests.post(
+                "https://formspree.io/f/xaqdzpjw",
+                data={"name": name, "email": email, "message": message},
+            )
+            if response.status_code == 200:
+                st.success("Thanks for your feedback!")
+            else:
+                st.error("Something went wrong. Please try again.")
