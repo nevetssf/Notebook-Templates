@@ -19,14 +19,14 @@ Every entry in the table of contents links directly to its corresponding page in
 and every page number links back to the table of contents.
 
 Because the links are page-based rather than bookmark-based, **inserting pages inside the notebook
-preserves all navigation**. The links in the TOC will link to the page embeded in the document, 
-even if you add pages. 
-            
+preserves all navigation**. The links in the TOC will link to the page embedded in the document,
+even if you add pages.
+
 The page styles include:
-    - dot grid
-    - lines
-    - grid
-    - blank
+- Dot grid
+- Lines
+- Grid
+- Blank
 """)
 
 # --- Device options ---
