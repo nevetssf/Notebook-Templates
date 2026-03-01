@@ -2,6 +2,10 @@
 
 A Python-based PDF notebook generator designed specifically for e-ink tablets like reMarkable and Onyx Boox devices. Generate custom notebooks with dots, lines, grids, or blank pages, complete with hyperlinked table of contents and page numbers.
 
+## Web App
+
+Try it online: **[https://eink-notebook-templates.streamlit.app/](https://eink-notebook-templates.streamlit.app/)**
+
 ## Features
 
 - 🎯 **Multiple Patterns**: Dots, lines, grid, or blank pages
