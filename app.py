@@ -12,13 +12,21 @@ st.set_page_config(page_title="Notebook Generator", page_icon="📓", layout="ce
 st.title("📓 PDF Notebook Generator")
 st.caption("Generate custom notebooks for reMarkable, Onyx Boox, and standard paper sizes.")
 
-st.markdown("""
+st.markdown(
+"""
 Each notebook starts with a **title page** followed by a **table of contents**, then your chosen number of pages.
 Every entry in the table of contents links directly to its corresponding page in the notebook,
 and every page number links back to the table of contents.
 
 Because the links are page-based rather than bookmark-based, **inserting pages inside the notebook
-preserves all navigation** — just update the TOC entries to match the new page numbers.
+preserves all navigation**. The links in the TOC will link to the page embeded in the document, 
+even if you add pages. 
+            
+The page styles include:
+    - dot grid
+    - lines
+    - grid
+    - blank
 """)
 
 # --- Device options ---
